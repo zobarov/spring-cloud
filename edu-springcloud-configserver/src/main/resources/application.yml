@@ -1,0 +1,23 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zobarov/edu-springcloud-configserver-git-ire-tolls
+          #username: uname
+          #password: pwd
+          search-paths:
+          - 'station*'
+          repos:
+            perf:
+            pattern:
+              pattern:
+              - "*/perf"
+              uri: https://github.com/zobarov/edu-springcloud-configserver-git-ire-tolls-perf
+              search-paths:
+                - 'station*'
+              
+            
