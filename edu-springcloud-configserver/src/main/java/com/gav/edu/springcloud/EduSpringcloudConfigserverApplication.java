@@ -1,4 +1,4 @@
-package com.gav.edu;
+package com.gav.edu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
