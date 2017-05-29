@@ -1,6 +1,13 @@
 ---
 server:
   port: 8888
+  
+security:
+  basic:
+    enabled: true
+  user:
+    name: alex.gera
+    password: alex.gera
 spring:
   cloud:
     config:
@@ -9,15 +16,14 @@ spring:
           uri: https://github.com/zobarov/edu-springcloud-configserver-git-ire-tolls
           #username: uname
           #password: pwd
-          search-paths:
+          search-paths: 
           - 'station*'
           repos:
             perf:
-            pattern:
               pattern:
-              - "*/perf"
+              - '*/perf'
               uri: https://github.com/zobarov/edu-springcloud-configserver-git-ire-tolls-perf
               search-paths:
-                - 'station*'
+              - 'station*'
               
             
