@@ -25,5 +25,7 @@ spring:
               uri: https://github.com/zobarov/edu-springcloud-configserver-git-ire-tolls-perf
               search-paths:
               - 'station*'
+        encrypt:
+          enabled: false
               
             
