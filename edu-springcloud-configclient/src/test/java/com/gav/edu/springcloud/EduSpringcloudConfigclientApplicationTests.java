@@ -1,4 +1,4 @@
-package com.gav.edu;
+package com.gav.edu.springcloud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
