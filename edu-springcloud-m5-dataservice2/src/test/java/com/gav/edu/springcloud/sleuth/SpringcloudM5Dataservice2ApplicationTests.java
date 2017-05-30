@@ -1,15 +1,15 @@
-package pluralsight.demo;
+package com.gav.edu.springcloud.sleuth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
-public class PluralsightSpringcloudM5Dataservice2ApplicationTests {
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
+public class SpringcloudM5Dataservice2ApplicationTests {
 
-	@Test
+	//@Test
 	public void contextLoads() {
 	}
 
